@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>Doctor Dashboard</title>
+        <link rel="stylesheet" href="../libs/bootstrap.min.css">
+        <link rel="stylesheet" href="../libs/all.min.css">
+        <link rel="stylesheet" href="Appointment.css">
+        <script src="https://kit.fontawesome.com/13f3ae8532.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="sidebar">
+            <div class="logo">
+                <i class="fas fa-heartbeat"></i>
+                <h2>BeyondCare</h2>
+            </div>
+            
+            <ul class="sidebar_menu">
+            <li class="mm-active">
+                <a href="Doctor-dashboard.html" aria-expanded="false">
+                    <i class="fas fa-home"></i>
+                    <span>Dashboard</span>
+                </a>
+             </li>
+
+              <li class="title">
+                <span>Patients</span>
+               </li>
+                
+                <li class="mm-active">
+                    <a href="AddPatient.html" aria-expanded="false">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Add Patients</span>
+                    </a>
+                </li>
+                
+                <li class="mm-active">
+                    <a href="ManagePatients.html" aria-expanded="false">
+                        <i class="fas fa-users-cog"></i>
+                        <span>Manage Patients</span>
+                    </a>
+                </li>
+                
+                <li class="title">
+                <span>Find</span>
+               </li>
+                
+                <li class="mm-active">
+                    <a href="Appointment.html" aria-expanded="false">
+                        <i class="fas fa-history"></i>
+                        <span>Appointment History</span>
+                    </a>
+                </li>
+                
+                <li class="mm-active">
+                    <a href="Search.html" aria-expanded="false">
+                        <i class="fas fa-search"></i>
+                        <span>Search</span>
+                    </a>
+                </li>
+                
+                <li class="title">
+                <span>Profile</span>
+               </li>
+                
+                <li class="mm-active">
+                    <a href="Profile.html" aria-expanded="false">
+                        <i class="fas fa-user-circle"></i>
+                        <span>Update Profile</span>
+                    </a>
+                </li>
+                
+                <li class="mm-active">
+                     <a href="../Services.html" aria-expanded="false">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <span>Log Out</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <header>
+            <div class="container">
+                <div class="row bet">
+                    <div class="col-6">
+                        <h1>Doctor Dashboard</h1>
+                    </div>
+                    
+                    <div class="col-6 left">
+                        <div class="row">
+                            <div class="col-3 notify">
+                                <a href="#"><i class="far fa-bell"></i></a>
+                                <a href="#"><i class="fas fa-inbox"></i></a>
+                            </div>
+                            <div class="col-2">
+                                <img src="../imgs/author.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <section class="manage">
+            <h2>Appointment History</h2>
+            <table class="table lms_table_active">
+                <thead>
+                    <tr>
+                        <th scope="col">No.</th>
+                        <th scope="col">Patient Name</th>
+                        <th scope="col">Mobile Number</th>
+                        <th scope="col">Fees</th>
+                        <th scope="col">Appointment Date & Time</th>
+                        <th scope="col">Appointment Creation Date</th>
+                        <th scope="col">Current Status</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    </tr>
+            </table>
+        </section>
+    </body>
+</html>

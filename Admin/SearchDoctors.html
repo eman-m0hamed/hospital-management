@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title>Admin Dashboard</title>
+        <link rel="stylesheet" href="../libs/bootstrap.min.css">
+        <link rel="stylesheet" href="../libs/all.min.css">
+        <link rel="stylesheet" href="SearchDoctors.css">
+        <script src="https://kit.fontawesome.com/13f3ae8532.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="sidebar">
+            <div class="logo">
+                <i class="fas fa-heartbeat"></i>
+                <h2>BeyondCare</h2>
+            </div>
+            
+            <ul class="sidebar_menu">
+            <li class="mm-active">
+                <a href="Admin-dashboard.html" aria-expanded="false">
+                    <i class="fas fa-home"></i>
+                    <span>Dashboard</span>
+                </a>
+             </li>
+
+              <li class="title">
+                <span>Doctors</span>
+               </li>
+                
+                <li class="mm-active">
+                    <a href="AddDoctor.html" aria-expanded="false">
+                        <i class="fas fa-user-md"></i>
+                        <span>Add Doctor</span>
+                    </a>
+                </li>
+                
+                <li class="mm-active">
+                    <a href="ManageDoctors.html" aria-expanded="false">
+                        <i class="fas fa-users-cog"></i>
+                        <span>Manage Doctors</span>
+                    </a>
+                </li>
+                
+                <li class="mm-active">
+                    <a href="SearchDoctors.html" aria-expanded="false">
+                        <i class="fas fa-search"></i>
+                        <span>Doctor Search</span>
+                    </a>
+                </li>
+                
+                <li class="title">
+                <span>Patients</span>
+               </li>
+                <!--<i class="fas fa-hospital-user"></i>-->
+                
+                <li class="mm-active">
+                    <a href="ManagePatients.html" aria-expanded="false">
+                        
+                        <i class="fas fa-users-cog"></i>
+                        <span>Manage Patients</span>
+                    </a>
+                </li>
+                
+                <li class="mm-active">
+                    <a href="SearchPatient.html" aria-expanded="false">
+                        <i class="fas fa-search"></i>
+                        <span>Patient Search</span>
+                    </a>
+                </li>
+                
+                <li class="mm-active">
+                    <a href="Appointment.html" aria-expanded="false">
+                        <i class="fas fa-history"></i>
+                        <span>Appointment History</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <header>
+            <div class="container">
+                <div class="row bet">
+                    <div class="col-6">
+                        <h1>Admin Dashboard</h1>
+                    </div>
+                    
+                    <div class="col-6 left">
+                        <div class="row">
+                            <div class="col-3 notify">
+                                <a href="#"><i class="far fa-bell"></i></a>
+                                <a href="#"><i class="fas fa-inbox"></i></a>
+                            </div>
+                            <div class="col-2">
+                                <img src="../imgs/author.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <section class="search">
+            <div class="container">
+                <h2>Search by Name / Mobile Number</h2>
+                <form>
+                    <div class="row">
+                     <div class="form-group">
+                        <input class="form-control" type="text" placeholder="Search" required>
+                        <i class="fas fa-search"></i>
+                    </div>
+                    
+                    <div class="form-btn">
+                        <button class="submit-btn"><a href="SearchResultsDoctor.html">Search</a></button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

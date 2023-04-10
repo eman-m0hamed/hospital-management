@@ -1,0 +1,162 @@
+<html>
+    <head>
+        <title>Doctor Dashboard</title>
+        <link rel="stylesheet" href="../libs/bootstrap.min.css">
+        <link rel="stylesheet" href="../libs/all.min.css">
+        <link rel="stylesheet" href="AddPatient.css">
+        <script src="https://kit.fontawesome.com/13f3ae8532.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="sidebar">
+            <div class="logo">
+                <i class="fas fa-heartbeat"></i>
+                <h2>BeyondCare</h2>
+            </div>
+            
+            <ul class="sidebar_menu">
+            <li class="mm-active">
+                <a href="Doctor-dashboard.html" aria-expanded="false">
+                    <i class="fas fa-home"></i>
+                    <span>Dashboard</span>
+                </a>
+             </li>
+
+              <li class="title">
+                <span>Patients</span>
+               </li>
+                
+                <li class="mm-active">
+                    <a href="AddPatient.html" aria-expanded="false">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Add Patients</span>
+                    </a>
+                </li>
+                
+                <li class="mm-active">
+                    <a href="ManagePatients.html" aria-expanded="false">
+                        <i class="fas fa-users-cog"></i>
+                        <span>Manage Patients</span>
+                    </a>
+                </li>
+                
+                <li class="title">
+                <span>Find</span>
+               </li>
+                
+                <li class="mm-active">
+                    <a href="Appointment.html" aria-expanded="false">
+                        <i class="fas fa-history"></i>
+                        <span>Appointment History</span>
+                    </a>
+                </li>
+                
+                <li class="mm-active">
+                    <a href="Search.html" aria-expanded="false">
+                        <i class="fas fa-search"></i>
+                        <span>Search</span>
+                    </a>
+                </li>
+                
+                <li class="title">
+                <span>Profile</span>
+               </li>
+                
+                <li class="mm-active">
+                    <a href="Profile.html" aria-expanded="false">
+                        <i class="fas fa-user-circle"></i>
+                        <span>Update Profile</span>
+                    </a>
+                </li>
+                
+                <li class="mm-active">
+                     <a href="../Services.html" aria-expanded="false">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <span>Log Out</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <header>
+            <div class="container">
+                <div class="row bet">
+                    <div class="col-6">
+                        <h1>Doctor Dashboard</h1>
+                    </div>
+                    
+                    <div class="col-6 left">
+                        <div class="row">
+                            <div class="col-3 notify">
+                                <a href="#"><i class="far fa-bell"></i></a>
+                                <a href="#"><i class="fas fa-inbox"></i></a>
+                            </div>
+                            <div class="col-2">
+                                <img src="../imgs/author.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <section class="search">
+            <div class="container">
+                <h2>Add Patient</h2>
+                <from>
+                    <div class="row">
+                     <div class="form-group">
+                        <input class="form-control" type="text" placeholder="Enter Patient Name" required>
+                    </div>
+                </div>
+                
+                <div class="row">
+                     <div class="form-group">
+                        <input class="form-control" type="number" placeholder="Enter Patient Number" required>
+                    </div>
+                </div>
+                
+                <div class="row">
+                     <div class="form-group">
+                        <input class="form-control" type="email" placeholder="Enter Patient Email" required>
+                    </div>
+                </div>
+                
+                <div class="row">
+                     <div class="form-group">
+                         <h3>Gender</h3>
+                         
+                         <input class="rad" type="radio" name="Gender" required>
+                         <label>Male</label>
+                         
+                         <input class="rad" type="radio"name="Gender" required>
+                         <label>Female</label>
+                    </div>
+                </div>
+                
+                <div class="row">
+                     <div class="form-group">
+                        <input class="form-control" type="text" placeholder="Enter Patient Address" required>
+                    </div>
+                </div>
+                
+                <div class="row">
+                     <div class="form-group">
+                        <input class="form-control" type="number" placeholder="Enter Patient Age" required>
+                    </div>
+                </div>
+                
+                <div class="row">
+                     <div class="form-group">
+                         <textarea placeholder="Enter Patient Medical Record"></textarea>
+                    </div>
+                </div>
+                
+                
+                <div class="form-btn">
+                    <button class="submit-btn">Add</button>
+                </div>
+                </from>
+            </div>
+        </section>
+    </body>
+</html>
